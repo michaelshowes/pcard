@@ -1,1 +1,24 @@
 @import "globals";
+@import "profile";
+@import "grid";
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__top {
+  position: fixed;
+  right: 50%;
+  bottom: 40%;
+  width: 1000px;
+}
+
+.background__bottom {
+  position: fixed;
+  top: 48%;
+  left: 50%;
+  width: 1000px;
+}
